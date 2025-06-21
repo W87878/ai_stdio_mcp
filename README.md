@@ -1,7 +1,7 @@
 
-# 🤖 Deep Research Agent (with FastAPI + MCP + Selenium + LLM)
+# 🤖 AI STDIO MCP Agent (with STDIO + MCP + LLM)
 
-本專案是一個整合多工具的生成式 AI 深度研究助手，透過 FastAPI 提供 MCP 工具註冊、Selenium 自動操作 NotebookLM、OpenAI API 生成結構化摘要，實現自動化的研究整合與分析。
+本專案是一個整合多工具的生成式 AI 助手，透過 STDIO 提供 MCP 工具註冊、OpenAI API 回覆以及實現 mcp 工具整合與應用。
 
 ---
 
