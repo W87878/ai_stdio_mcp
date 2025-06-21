@@ -40,8 +40,12 @@ def print_optimized_result(agent_response):
 async def main():
     client = MultiServerMCPClient({
         "mcp_server": {
-            "url": "http://localhost:8000/sse",  # 改成你的實際 port
-            "transport": "sse",
+            "command": "uv", 
+            "args": ["run", "mcp_server.py"],
+            "env": {
+                "OPENAI_API_KEY": OPENAI_API_KEY,
+            },
+            "transport": "stdio",
         },
         # 其他 server 也可在此加入
     })
